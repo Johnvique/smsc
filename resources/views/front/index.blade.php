@@ -33,20 +33,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="https://www.youtube.com/watch?v=fwkKc6M60-0">
-                    <div class="mbr-overlay"></div>
-                    <div class="container container-slide">
-                        <div class="image_wrapper">
-                            <img src="{{asset ('assets/images/picture4.png')}}" style="opacity: 0;">
-                            <div class="carousel-caption justify-content-center">
-                                <div class="col-10 align-left">
-                                    <h2 class="mbr-fonts-style display-1"><span style="color: #0062FE;">Student Accomodation</span></h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5">St. Mary's College is well endowed with Boarding Facilities for Ladies and Day Schooling is ever open for All.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/picture4.png);">
                     <div class="container container-slide">
                         <div class="image_wrapper">
@@ -228,11 +214,6 @@
 
             
         </div>
-
-        <!-- <div class="container">
-            <a class="btn btn-outline-info" href="{{ route ('courses') }}">SEE ALL</a>
-        </div>
- -->
     </div>
 </section>
 
