@@ -22,8 +22,8 @@
                             <img src="{{asset ('assets/images/picture8.png')}}">
                             <div class="carousel-caption justify-content-center">
                                 <div class="col-10 align-center">
-                               <h2 class="mbr-fonts-style display-1"><span style="color: #CE0000">St.Mary's Secretarial College</span></h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5">We stress on all around training not just gaining skills.This enables the products to fit better in whichever communities they find themselves in.</p>
+                         <h2 class="mbr-fonts-style display-1"><span style="color: #CE0000">St.Mary's Secretarial College</span></h2>
+                                    <p class="lead mbr-text mbr-fonts-style display-5">We are accredited by KNEC & KASNEB Examination Centre With Excellent Learning Environment and Facilities.</p>
                                     <div class="mbr-section-btn" buttons="0">
                                         <a class="btn btn-success display-4" href="{{ route('courses')}}">Check Courses</a>
                                         <a class="btn  btn-white-outline display-4" href="#">Register</a>
@@ -80,8 +80,8 @@
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">St.Mary's Secretarial College is an Accredited KNEC &amp; KASNEB Examination Center with Excellent Learning Environment and Facilities.</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">We have Boarding Facilities for Ladies and Day Schooling Open for All.</h3>
                 <div class="mbr-section-btn align-center py-4">
-                    <a class="btn btn-primary display-4" href="{{ route('about')}}">LEARN MORE</a>
-                    <a class="btn btn-black-outline display-4" href="https://mobirise.co">Check In</a>
+                    <a class="btn btn-primary display-4" href="https://mobirise.co">LEARN MORE</a>
+                    <a class="btn btn-black-outline display-4" href="https://mobirise.co">LIVE DEMO</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
 
     
     <div class="container">
-        <div class="text-center"><h2 style="color: #3295CC">School Department</h2></div>
+        <div class="text-center"><h2 style="color: #3295CC">Courses offered</h2></div>
         <div class="media-container-row">
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
@@ -236,7 +236,56 @@
     </div>
 </section>
 
-
+<div class="container pt-4">
+    <h1>JANUARY 2019 INTAKE</h1>
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <th scope="col">COURSE</th>
+          <th scope="col">QUALIFICATION</th>
+          <th scope="col">MODE</th>
+          <th scope="col">DURATION</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Diploma in Secretarial Studies</td>
+          <td>KCSE C-</td>
+          <td>Full Time</td>
+          <td>3 Years</td>
+        </tr>
+        <tr>
+          <td>Diploma in Business Management</td>
+          <td>KCSE C-</td>
+          <td>Full Time</td>
+          <td>3 Years</td>
+        <tr>
+          <td>Certificate in Secretarial Studies (Single & Groups)</td>
+          <td>KCSE D (Plain)</td>
+          <td>Full Time</td>
+          <td>2 Years</td>
+        </tr>
+        <tr>
+          <td>CPA</td>
+          <td>KCSE C+</td>
+          <td>Part Time</td>
+          <td>6 Months</td>
+        </tr>
+        <tr>
+          <td>Computer Packages</td>
+          <td>Open</td>
+          <td>Part Time</td>
+          <td>2 Months</td>
+        </tr>
+        <tr>
+          <td>Certificate in Accounting & Management Skills</td>
+          <td>KCSE D+</td>
+          <td>Full Time</td>
+          <td>1 Year</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
 
 
 @endsection
