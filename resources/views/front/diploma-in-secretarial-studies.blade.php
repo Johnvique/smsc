@@ -11,7 +11,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Diploma in Secretarial Studies</h2>
+                <h4 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Diploma in Secretarial Studies</h4>
                 
                 
                 

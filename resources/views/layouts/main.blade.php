@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="{{asset ('assets/images/logo1-122x88.jpg')}}" type="image/x-icon">
   <meta name="description" content="">
-  <title>Home</title>
+  <title>St.Mary's Secretarial College</title>
   <link rel="stylesheet" href="{{asset ('assets/web/assets/mobirise-icons/mobirise-icons.css')}}">
   <link rel="stylesheet" href="{{asset ('assets/tether/tether.min.css')}}">
   <link rel="stylesheet" href="{{asset ('assets/bootstrap/css/bootstrap.min.css')}}">
@@ -40,7 +40,7 @@
                 <div class="navbar-brand">
                     <span class="navbar-logo">
                         
-                            <a href="index.html"><img src="{{asset ('assets/images/logo1-122x88.jpg')}}" alt="Mobirise" title="" style="height: 4.8rem;"></a>
+                            <a href="index.html"><img src="{{asset ('assets/images/logo1-122x88.jpg')}}" alt="" title="" style="height: 4.8rem;"></a>
                         
                     </span>
                     
@@ -50,9 +50,20 @@
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
                         <a class="nav-link link text-black display-4" href="{{ route('index')}}">
                             Home</a>
-                    </li><li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link link text-black display-4" href="{{ route('about')}}">
                             About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link text-black display-4" href="{{ route('fee')}}">
+                            Fee Structure
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link text-black display-4" href="{{ route('downloads')}}">
+                            Downloads
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -61,7 +72,7 @@
                             <a class="text-black dropdown-item display-4" href="{{ route('dss')}}">Diploma in Secretarial Studies</a>
                             <a class="text-black dropdown-item display-4" href="{{ route('dbm')}}">Diploma in Business Management</a>
                             <a class="text-black dropdown-item display-4" href="{{ route('css')}}">Certificate in Secretarial Studies (Single &amp; Group)</a>
-                            <a class="text-black dropdown-item display-4" href="{{ route('cpa')}}">CPA</a>
+                            <a class="text-black dropdown-item display-4" href="{{ route('cpa')}}">Certified Public Accountant(CPA)</a>
                             <a class="text-black dropdown-item display-4" href="{{ route('packages')}}">Computer Packages</a>
                             <a class="text-black dropdown-item display-4" href="{{ route('cams')}}">Certificate in Accounting &amp; Management Skills</a>
                         </div>
@@ -70,7 +81,7 @@
                             Contact</a>
                         </li>
                     </ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:+1-234-567-8901">
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:+254723977280">
                         <span class="btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn">
                         </span>
                         +254723-977-280
@@ -95,9 +106,13 @@
                     <h5 style="color: #3497FF">St. Mary's College</h5>
                 </p>
                 <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
-                    <a href="about.html" class="text-white">About Us</a>
-                    <br><a href="courses.html" class="text-white">Courses Offered</a>
-                    <br><a href="contact.html" class="text-white">Get In Touch</a>
+                    <a href="{{ route('about')}}" class="text-white">About Us</a>
+                    <br>
+                    <a href="{{ route('downloads')}}" class="text-white">Important Downloads</a>
+                    <br>
+                    <a href="{{ route('fee')}}" class="text-white">Fee Structure</a>
+                    <br>
+                    <a href="{{ route('contact')}}" class="text-white">Get In Touch</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-8">

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https://mobirise.info/j">website templates</a>
+<section class="engine"><a href="">School Website</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
@@ -13,7 +13,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Certificate in Accounting and Management System</h2>
+                <h4 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Certificate in Accounting and Management System</h4>
                 
                 
                 
