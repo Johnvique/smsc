@@ -36,6 +36,12 @@ class PagesController extends Controller
     public function cams(){
     	return view('front.cams');
     }
+    public function fee(){
+        return view('front.fee');
+    }
+    public function downloads(){
+        return view('front.downloads');
+    }
     // public function index(){
     // 	return view('front.index');
     // }

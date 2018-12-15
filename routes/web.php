@@ -29,3 +29,5 @@ Route::get('/certificate-in-secretarial-studies', 'PagesController@css')->name('
 Route::get('/cpa', 'PagesController@cpa')->name('cpa');
 Route::get('/computer-packages', 'PagesController@packages')->name('packages');
 Route::get('/cams', 'PagesController@cams')->name('cams');
+Route::get('/fee', 'PagesController@fee')->name('fee');
+Route::get('/downloads', 'PagesController@downloads')->name('downloads');
