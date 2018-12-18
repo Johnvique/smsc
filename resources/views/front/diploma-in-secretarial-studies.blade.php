@@ -64,8 +64,8 @@
                 </p>
             </div>
 
-            <div class="mbr-figure pl-lg-5" style="width: 130%;">
-              <img src="assets/images/face5.jpg">
+            <div class="mbr-figure pl-lg-5" style="width: 100%;">
+              <img src="assets/images/face5.jpg" class="img-fluid">
             </div>
         </div>
     </div>

@@ -47,7 +47,7 @@
             </p>
                     <div class="mbr-section-btn text-center">
                         <a href="#" class="btn btn-success display-4">
-                            More
+                        More
                         </a>
                     </div>
                 </div>
