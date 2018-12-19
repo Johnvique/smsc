@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.8.8, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="{{asset ('assets/images/logo1-122x88.jpg')}}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{asset ('assets/images/logoz.png')}}" type="image/x-icon">
   <meta name="description" content="">
   <title>St.Mary's Secretarial College</title>
   <link rel="stylesheet" href="{{asset ('assets/web/assets/mobirise-icons/mobirise-icons.css')}}">
@@ -39,14 +39,15 @@
                 <div class="navbar-brand">
                     <span class="navbar-logo">
                         
-                            <a href="index.html"><img src="{{asset ('assets/images/logo1-122x88.jpg')}}" alt="" title="" style="height: 4.8rem;"></a>
+                            <a href="index.html"><img src="{{asset ('assets/images/logoz.png')}}" alt="" title="" style="height: 4.8rem;"></a>
                         
                     </span>
                     
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                    <li class="nav-item">
                         <a class="nav-link link text-black display-4" href="{{ route('index')}}">
                             Home</a>
                     </li>
@@ -80,11 +81,13 @@
                             Contact</a>
                         </li>
                     </ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:+254723977280">
+                <div class="navbar-buttons mbr-section-btn">
+                    <a class="btn btn-sm btn-primary display-4" href="tel:+254723977280">
                         <span class="btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn">
                         </span>
                         +254723-977-280
-                    </a></div>
+                    </a>
+                </div>
             </div>
         </nav>
     </section>
@@ -98,7 +101,7 @@
             <div class="col-md-3 col-sm-4">
                 <div class="mb-3 img-logo">
                     <a href="{{ route('index')}}">
-                        <img src="{{asset ('assets/images/logo2.png')}}" alt="Mobirise">
+                        <img src="{{asset ('assets/images/logoz.png')}}" alt="Mobirise">
                     </a>
                 </div>
                 <p class="mb-3 mbr-fonts-style foot-title display-7">

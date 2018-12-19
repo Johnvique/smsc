@@ -31,13 +31,13 @@
             <div class="col-12 col-md-8">
                 <div class="media-container-row">
                     <div class="mbr-figure" style="width: 60%;">
-                      <img src="assets/images/01.jpg" alt="Mobirise">  
+                        <img src="assets/images/picture8.png" alt="smsc">  
                     </div>
                     <div class="media-content">
                         <div class="mbr-section-text">
                             <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                               <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
-                            </p>
+                            Financial accounting is roughly defined as the practices and processes by which financial transactions are recorded, monitored, analysed and managed.  Professional accountants play a direct role in the financial performance and efficiency of the organisations and individuals they work for.  Accountants take charge of all key financial matters, including revenue analysis, profit and loss management, debts, credits and all business expenses.  Along with ensuring that the business meets all essential tax obligations, accountants are also directly involved in minimising expenditure, 
+                            maximising income and bolstering profitability.</p>
                         </div>
                     </div>
                 </div>
@@ -56,18 +56,20 @@
         <div class="media-container-row">
             <div class="media-content px-3 align-self-center mbr-white py-2">
                 <p class="mbr-text testimonial-text mbr-fonts-style display-7">
-                   It's really very amazing app that makes me finish html page in 3 minutes that's usually takes more than 1 hours at least from me if i did it from scratch
+                This Diploma scheme in Accounting and Management studies allows students to study the fundamental elements of the
+                 Accounting discipline, whilst at the same time developing your knowledge of Management and related subjects such as Organisational Behaviour,
+                 Organisational Strategy and Marketing.
                 </p>
                 <p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">
-                   Julie C.
+                St.Mary's Secretarial College.
                 </p>
                 <p class="mbr-author-desc mbr-fonts-style display-7">
-                   INTERFACE DESIGNER
+                We are the best institution in all Accounting and Management studies
                 </p>
             </div>
 
-            <div class="mbr-figure pl-lg-5" style="width: 130%;">
-              <img src="assets/images/face5.jpg">
+            <div class="mbr-figure pl-lg-5" style="width: 100%;">
+            <img src="assets/images/picture5.png" class="img-fluid">
             </div>
         </div>
     </div>
