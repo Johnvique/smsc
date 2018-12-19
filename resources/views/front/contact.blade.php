@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https://mobirise.info/j">website templates</a>
+<section class="engine"><a href="https://mobirise.info/j">School Website</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
@@ -51,8 +51,13 @@
                             We are very ready for any communicaion from you
                         </h5>
                         <p class="mbr-text align-left mbr-fonts-style display-7">
-                            Phone: +254723977280 <br>
-                            Email: smscmarys@gmail.com
+                        <span style="color: #000000">phone: <a style="color: #005D7E"  
+                        href="tel: +2547977280">
+                        +2547977280</a><br>
+                        <span style="color: #000000">Mail: <a style="color: #005D7E"  
+                        href="mailto: smscmarys@gmail.com">
+                        smscmarys@gmail.com</a>
+            </span>
                         </p>
                     </div>
                 </div>

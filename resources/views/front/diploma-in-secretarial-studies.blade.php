@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https://mobirise.info/j">website templates</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
+<section class="engine"><a href="https://mobirise.info/j">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
     
 
@@ -34,8 +34,16 @@
                     <div class="media-content">
                         <div class="mbr-section-text">
                             <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                               <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
-                            </p>
+                            By choosing secretarial studies, you are doing just that: 
+                            stacking the odds in your favour. Secretaries are fortunate enough to be able to work
+                            in any environment and in any industry. This opens up many possibilities, 
+                            and gives you many options to choose from.
+                            The aspects covered by secretarial studies are closely linked to many other fields,
+                            which means that even if you decide not to venture into a secretarial career, 
+                            you will still be able to make use of the knowledge and skills that you have acquired.
+                            You could, for example, decide to study further and go into bookkeeping, 
+                            where you will be required to perform a whole range of administrative tasks in addition
+                           to your bookkeeping duties.</p>
                         </div>
                     </div>
                 </div>

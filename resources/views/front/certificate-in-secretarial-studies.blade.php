@@ -11,7 +11,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h4 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Diploma in Secretarial Studies</h4>
+                <h4 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Certificate in Secretarial Studies</h4>
                 
                 
                 
@@ -34,7 +34,11 @@
                     <div class="media-content">
                         <div class="mbr-section-text">
                             <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                               <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
+                            The successful student in secretarial services performs skilled clerical work, 
+                            and provide general secretarial support to department administrators.
+                            The Secretary will be responsible for assisting with departmental payroll,
+                            maintaining financial records and facilitating communication among company departments
+                            </p>
                             </p>
                         </div>
                     </div>

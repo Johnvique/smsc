@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="engine">
-    <a href="https://mobirise.info/j">Website templates</a>
+    <a href="https://mobirise.info/j">School Website</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 

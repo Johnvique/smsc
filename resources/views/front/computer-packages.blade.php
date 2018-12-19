@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https://mobirise.info/j">website templates</a>
+<section class="engine"><a href="https://mobirise.info/j">School Website</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
@@ -36,8 +36,11 @@
                     <div class="media-content">
                         <div class="mbr-section-text">
                             <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                               <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
-                            </p>
+                            The most important aspect of computer science is problem solving,
+                             an essential skill for life. Students study the design, development and 
+                             analysis of software and hardware used to solve problems in a variety of business, 
+                             scientific and social contexts.
+                            </p> 
                         </div>
                     </div>
                 </div>

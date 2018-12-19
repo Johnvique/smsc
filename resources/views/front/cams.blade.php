@@ -36,8 +36,8 @@
                     <div class="media-content">
                         <div class="mbr-section-text">
                             <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                            <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
-                            </p>
+                            Financial accounting is roughly defined as the practices and processes by which financial transactions are recorded, monitored, analysed and managed.  Professional accountants play a direct role in the financial performance and efficiency of the organisations and individuals they work for.  Accountants take charge of all key financial matters, including revenue analysis, profit and loss management, debts, credits and all business expenses.  Along with ensuring that the business meets all essential tax obligations, accountants are also directly involved in minimising expenditure, 
+                            maximising income and bolstering profitability.</p>
                         </div>
                     </div>
                 </div>

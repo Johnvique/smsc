@@ -30,11 +30,10 @@
                             <img src="{{asset ('assets/images/picture9.png')}}">
                             <div class="carousel-caption justify-content-center">
                                 <div class="col-10 align-center">
-                        <h2 class="mbr-fonts-style display-1"><span style="color: #CE0000">St.Mary's Secretarial College</span></h2>
+                        <h2 class="mbr-fonts-style display-1">Diocese College of Isiolo(DCI)<br><span style="color: #CE0000">St.Mary's Secretarial College</span></h2>
                                     <p class="lead mbr-text mbr-fonts-style display-5">We are accredited by KNEC & KASNEB Examination Centre With Excellent Learning Environment and Facilities.</p>
                                     <div class="mbr-section-btn" buttons="0">
-                                        <a class="btn btn-success display-4" href="{{ route('courses')}}">Check Courses</a>
-                                        <a class="btn  btn-white-outline display-4" href="#">Register</a>
+                                        <a class="btn btn-success display-4" href="{{ route('downloads')}}">check Updates</a>
                                     </div>
                                 </div>
                             </div>
@@ -51,8 +50,8 @@
                                     <h2 class="mbr-fonts-style display-1">IMAGE SLIDE</h2>
                                     <p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.</p>
                                     <div class="mbr-section-btn" buttons="0">
-                                        <a class="btn btn-info display-4" href="#">FOR WINDOWS</a>
-                                        <a class="btn  btn-white-outline display-4" href="#">FOR MAC</a>
+                                        <a class="btn btn-info display-4" href="#">Read More</a>
+                                        <a class="btn  btn-white-outline display-4" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -93,8 +92,6 @@
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">St.Mary's Secretarial College is an Accredited KNEC &amp; KASNEB Examination Center with Excellent Learning Environment and Facilities.</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">We have Boarding Facilities for Ladies and Day Schooling Open for All.</h3>
                 <div class="mbr-section-btn align-center py-4">
-                    <a class="btn btn-primary display-4" href="https://mobirise.co">LEARN MORE</a>
-                    <a class="btn btn-black-outline display-4" href="https://mobirise.co">LIVE DEMO</a>
                 </div>
             </div>
         </div>
@@ -158,7 +155,7 @@
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
-                            School Programmes Manager
+                            Meet the School Bishop
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
                             Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.
