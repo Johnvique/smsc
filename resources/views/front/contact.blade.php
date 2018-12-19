@@ -52,8 +52,8 @@
                         </h5>
                         <p class="mbr-text align-left mbr-fonts-style display-7">
                         <span style="color: #000000">phone: <a style="color: #005D7E"  
-                        href="tel: +2547977280">
-                        +2547977280</a><br>
+                        href="tel: +254723977280">
+                        +254723977280</a><br>
                         <span style="color: #000000">Mail: <a style="color: #005D7E"  
                         href="mailto: smscmarys@gmail.com">
                         smscmarys@gmail.com</a>
