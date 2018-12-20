@@ -4,13 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Course extends Model
+class Staff extends Model
 {
     protected $fillable = [
-    	'name',
-    	'qualification',
-    	'mode',
-    	'duration',
-    	'fee'
+    	'fname',
+    	'mname',
+    	'lname',
+    	'idno',
+    	'tscno'
     ];
 }

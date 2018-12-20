@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+use App\Course;
+
 class CoursesController extends Controller
 {
     /**
@@ -14,7 +16,8 @@ class CoursesController extends Controller
      */
     public function index()
     {
-        return view('admin.courses.index');
+        $courses = Course::paginate(5);
+        return view('admin.courses.index', compact('courses'));
     }
 
     /**
@@ -35,7 +38,25 @@ class CoursesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request -> validate([
+            'name' => 'required',
+            'qualification' => 'required',
+            'mode' => 'required',
+            'duration' => 'required',
+            'fee' => 'required'
+        ]);
+
+        $course = new Course([
+            'name' => $request->get('name'),
+            'qualification' => $request->get('qualification'),
+            'mode' => $request->get('mode'),
+            'duration' => $request->get('duration'),
+            'fee' => $request->get('fee')
+        ]);
+
+        $course->save();
+
+        return redirect('admin/courses')->with('success', 'Course created successfully!');
     }
 
     /**
@@ -57,7 +78,9 @@ class CoursesController extends Controller
      */
     public function edit($id)
     {
-        //
+        $course = Course::findOrFail($id);
+
+        return view('admin.courses.edit', ['course' => $course]);
     }
 
     /**
@@ -69,7 +92,23 @@ class CoursesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request -> validate([
+            'name' => 'required',
+            'qualification' => 'required',
+            'mode' => 'required',
+            'duration' => 'required',
+            'fee' => 'required'
+        ]);
+
+        $course = Course::findOrFail($id);
+        $course->name = $request->get('name');
+        $course->qualification = $request->get('qualification');
+        $course->mode = $request->get('mode');
+        $course->duration = $request->get('duration');
+        $course->fee = $request->get('fee');
+        $course->save();
+
+        return redirect('admin/courses')->with('success', 'Course Updated Successfully!');
     }
 
     /**
@@ -80,6 +119,10 @@ class CoursesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $course = Course::findOrFail($id);
+
+        $course->delete();
+
+        return redirect('admin/courses')->with('success', 'Course has been deleted Successfully!');
     }
 }

@@ -37,6 +37,7 @@ Route::group(['prefix' => 'admin','middleware'=>['auth','admin']], function () {
 	Route::resource('students', 'Admin\StudentController');
 	Route::resource('courses', 'Admin\CoursesController');
 	Route::resource('files', 'Admin\FileController');
+	Route::resource('staffs', 'Admin\StaffController');
 });
 
 // Route::prefix('admin')->middleware('auth', 'admin')->group(function(){

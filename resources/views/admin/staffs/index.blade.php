@@ -17,31 +17,31 @@
     <div class="card mb-3">
       <div class="card-header">
         <i class="fas fa-table"></i>
-        Courses</div>
+        STAFF</div>
       <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               <thead>
                 <tr>
-                  <th>NAME</th>
-                  <th>QUALIFICATION</th>
-                  <th>MODE</th>
-                  <th>DURATION</th>
-                  <th>FEE</th>
+                  <th>FIRST NAME</th>
+                  <th>MIDDLE NAME</th>
+                  <th>LAST NAME</th>
+                  <th>NATIONAL ID</th>
+                  <th>TSC NUMBER</th>
                   <th class="col-3">Action</th>
                 </tr>
               </thead>
               <tbody>
-              @forelse($courses as $course)
+              @forelse($staffs as $staff)
                 <tr>
-                  <td>{{$course->name}}</td>
-                  <td>{{$course->qualification}}</td>
-                  <td>{{$course->mode}}</td>
-                  <td>{{$course->duration}}</td>
-                  <td>{{$course->fee}}</td>
-                  <td><a href="{{route('courses.edit', $course['id'])}}" class="btn btn-warning">Edit</a>
+                  <td>{{$staff->fname}}</td>
+                  <td>{{$staff->mname}}</td>
+                  <td>{{$staff->lname}}</td>
+                  <td>{{$staff->idno}}</td>
+                  <td>{{$staff->tscno}}</td>
+                  <td><a href="{{route('staffs.edit', $staff['id'])}}" class="btn btn-warning">Edit</a>
                     <span>
-                  <form action="{{route('courses.destroy', $course['id'])}}" method="post">
+                  <form action="{{route('staffs.destroy', $staff['id'])}}" method="post">
                     @csrf
                     <input name="_method" type="hidden" value="DELETE">
                     <button class="btn btn-danger" type="submit">Delete</button>
@@ -58,7 +58,7 @@
             <div class="container">
               <div class="row justify-content-md-center">
                 <div class="col-lg-2">
-                  {{ $courses->links() }}
+                  {{ $staffs->links() }}
                 </div>
               </div>
             </div>
