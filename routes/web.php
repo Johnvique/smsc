@@ -33,10 +33,10 @@ Route::get('/fee', 'PagesController@fee')->name('fee');
 Route::get('/downloads', 'PagesController@downloads')->name('downloads');
 
 Route::group(['prefix' => 'admin','middleware'=>['auth','admin']], function () {
-	Route::get('/', 'Admin\AdminController@index')->name('index');
-	Route::resource('students', 'Admin\StudentController');
-	Route::resource('courses', 'Admin\CoursesController');
-	Route::resource('files', 'Admin\FileController');
+Route::get('/', 'Admin\AdminController@index')->name('index');
+Route::resource('students', 'Admin\StudentController');
+Route::resource('courses', 'Admin\CoursesController');
+Route::resource('files', 'Admin\FileController');
 });
 
 // Route::prefix('admin')->middleware('auth', 'admin')->group(function(){

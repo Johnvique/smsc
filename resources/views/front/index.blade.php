@@ -47,11 +47,11 @@
                             <img src="{{asset ('assets/images/picture4.png')}}">
                             <div class="carousel-caption justify-content-center">
                                 <div class="col-10 align-right">
-                                    <h2 class="mbr-fonts-style display-1">IMAGE SLIDE</h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.</p>
+                                    <h2 class="mbr-fonts-style display-1"><span style="color: #CD00CB">SCHOOL CHOIR ON MASS SERVICE</span></h2>
+                                    <p class="lead mbr-text mbr-fonts-style display-5">St.Mary's Secretarial College is a Catholic Diosece School that is christian based.We mentor our students physically,
+                                    mentally and Spiritually. </p>
                                     <div class="mbr-section-btn" buttons="0">
-                                        <a class="btn btn-info display-4" href="#">Read More</a>
-                                        <a class="btn  btn-white-outline display-4" href="#">Read More</a>
+                                        <a class="btn btn-warning display-4" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,8 +65,9 @@
                             <img src="{{asset ('assets/images/picture4.png')}}">
                             <div class="carousel-caption justify-content-center">
                                 <div class="col-10 align-right">
-                                    <h2 class="mbr-fonts-style display-1">IMAGE SLIDE</h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.</p>
+                                    <h2 class="mbr-fonts-style display-1"><span style="color: #990100">STUDENTS SCOUT UNION</span></h2>
+                                    <p class="lead mbr-text mbr-fonts-style display-5">Physical Matching and practising Scouting Services is part and parcel of 
+                                    St.Mary's Students and that shows a sense of responsibility in them.</p>
                                     <div class="mbr-section-btn" buttons="0">
                                         <a class="btn  btn-white-outline display-4" href="#">Read More</a>
                                     </div>
@@ -116,7 +117,9 @@
                             Head of Secretarial Department
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quaerat laudantium omnis odio quos nostrum error vel, maxime est, 
+                            itaque excepturi iure eveniet.
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
@@ -137,7 +140,9 @@
                             School General Manager
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quaerat laudantium omnis odio quos nostrum error vel, maxime est, 
+                            itaque excepturi iure eveniet.
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
@@ -158,7 +163,9 @@
                             Meet the School Bishop
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quaerat laudantium omnis odio quos nostrum error vel, maxime est, 
+                            itaque excepturi iure eveniet.
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
@@ -183,7 +190,9 @@
                             Culture promotion through Traditional Dances
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quaerat laudantium omnis odio quos nostrum error vel, maxime est, 
+                            itaque excepturi iure eveniet.
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
@@ -204,7 +213,9 @@
                             Sundays Opening Mass Session
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quaerat laudantium omnis odio quos nostrum error vel, maxime est, 
+                            itaque excepturi iure eveniet.
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
@@ -225,7 +236,9 @@
                             We Also Encourage Co-Cirriculum Activities
                         </h4>
                         <p class="mbr-text mbr-fonts-style display-7">
-                            Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quaerat laudantium omnis odio quos nostrum error vel, maxime est, 
+                            itaque excepturi iure eveniet.
                         </p>
                     </div>
                     <div class="mbr-section-btn text-center">
