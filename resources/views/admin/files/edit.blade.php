@@ -29,7 +29,7 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="file">FIle</label>
-	    <input type="file" class="form-control-file" id="file" name="file" value="{{$file->file}}">
+	    <input type="file" class="form-control-file" id="file" name="file" value="{{$file->file}}">{{$file->file}}</input>
 	  </div>
 	  <button type="submit" class="btn btn-primary">Submit</button>
 	</form>

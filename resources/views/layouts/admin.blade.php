@@ -83,6 +83,17 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
+            <span>Staff</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <h6 class="dropdown-header">Manage Staff:</h6>
+            <a class="dropdown-item" href="{{url('admin/staffs')}}">All</a>
+            <a class="dropdown-item" href="{{url('admin/staffs/create')}}">Add Staff</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
             <span>Courses</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">

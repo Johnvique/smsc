@@ -7,10 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Staff extends Model
 {
     protected $fillable = [
-    	'fname',
-    	'mname',
-    	'lname',
+    	'name',
+    	'image',
+    	'position',
+    	'email',
     	'idno',
-    	'tscno'
+    	'password'
     ];
 }

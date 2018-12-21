@@ -23,25 +23,29 @@
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               <thead>
                 <tr>
-                  <th>FIRST NAME</th>
-                  <th>MIDDLE NAME</th>
-                  <th>LAST NAME</th>
+                  <th>FULL NAME</th>
+                  <th>POSITION</th>
                   <th>NATIONAL ID</th>
-                  <th>TSC NUMBER</th>
+                  <th>IMAGE</th>
+                  <th>EMAIL</th>
+                  <th>PASSWORD</th>
                   <th class="col-3">Action</th>
                 </tr>
               </thead>
               <tbody>
-              @forelse($staffs as $staff)
+              @forelse($staff as $staff)
                 <tr>
-                  <td>{{$staff->fname}}</td>
-                  <td>{{$staff->mname}}</td>
-                  <td>{{$staff->lname}}</td>
+                  <td>{{$staff->name}}</td>
+                  <td>{{$staff->position}}</td>
                   <td>{{$staff->idno}}</td>
-                  <td>{{$staff->tscno}}</td>
-                  <td><a href="{{route('staffs.edit', $staff['id'])}}" class="btn btn-warning">Edit</a>
+                  <td>
+                    <img src="/storage/staff/{{$staff->image}}" style="width: 60px; height: 70px">
+                  </td>
+                  <td>{{$staff->email}}</td>
+                  <td>{{$staff->password}}</td>
+                  <td><a href="{{route('staff.edit', $staff['id'])}}" class="btn btn-warning">Edit</a>
                     <span>
-                  <form action="{{route('staffs.destroy', $staff['id'])}}" method="post">
+                  <form action="{{route('staff.destroy', $staff['id'])}}" method="post">
                     @csrf
                     <input name="_method" type="hidden" value="DELETE">
                     <button class="btn btn-danger" type="submit">Delete</button>
@@ -58,7 +62,7 @@
             <div class="container">
               <div class="row justify-content-md-center">
                 <div class="col-lg-2">
-                  {{ $staffs->links() }}
+                  {{ $staff->links() }}
                 </div>
               </div>
             </div>

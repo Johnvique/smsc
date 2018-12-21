@@ -31,6 +31,7 @@ Route::get('/computer-packages', 'PagesController@packages')->name('packages');
 Route::get('/cams', 'PagesController@cams')->name('cams');
 Route::get('/fee', 'PagesController@fee')->name('fee');
 Route::get('/downloads', 'PagesController@downloads')->name('downloads');
+// Route::get('/downloads/{id}', 'PagesController@file')->name('downloadfile');
 
 Route::group(['prefix' => 'admin','middleware'=>['auth','admin']], function () {
 	Route::get('/', 'Admin\AdminController@index')->name('index');
@@ -44,3 +45,16 @@ Route::group(['prefix' => 'admin','middleware'=>['auth','admin']], function () {
 // 	Route::get('/', 'Admin\AdminController@index')->name('index');
 
 // });
+
+Route::get('/downloads/{id}', function() {
+
+    $pathToFile = public_path()."/files/{$file}";
+    $name = time().'.pdf';
+
+    $headers = array(
+    	'Content-Type: application/pdf',
+    );
+
+    return response()->download($pathToFile, $name, $headers);
+});
+

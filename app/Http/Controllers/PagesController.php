@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\File;
+use App\Course;
+
+use Storage;
+
 class PagesController extends Controller
 {
     public function index(){
@@ -40,9 +45,11 @@ class PagesController extends Controller
         return view('front.fee');
     }
     public function downloads(){
-        return view('front.downloads');
+        $files = File::paginate(5);
+        return view('front.downloads', compact('files'));
     }
-    // public function index(){
-    // 	return view('front.index');
-    // }
+    public function file($id){
+        $dl = File::find($id);
+    	return Storage::download($dl->file, $dl->name);
+    }
 }
