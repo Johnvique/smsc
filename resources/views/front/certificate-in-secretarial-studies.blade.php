@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https:#">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
+<section class="engine"><a href="{{url('/')}}">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
     
 
@@ -29,7 +29,7 @@
             <div class="col-12 col-md-8">
                 <div class="media-container-row">
                     <div class="mbr-figure" style="width: 60%;">
-                      <img src="assets/images/picture8.png" alt="smsc">  
+                      <img src="assets/images/Picture8.png" alt="smsc">  
                     </div>
                     <div class="media-content">
                         <div class="mbr-section-text">
@@ -71,7 +71,7 @@
             </div>
 
             <div class="mbr-figure pl-lg-5" style="width: 100%;">
-              <img src="assets/images/picture5.png" class="img-fluid">
+              <img src="assets/images/Picture5.png" class="img-fluid">
             </div>
         </div>
     </div>

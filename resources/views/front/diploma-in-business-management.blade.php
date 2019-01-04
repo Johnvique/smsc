@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https://mobirise.info/j">website templates</a>
+<section class="engine"><a href="{{url('/')}}">website templates</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
@@ -31,7 +31,7 @@
             <div class="col-12 col-md-8">
                 <div class="media-container-row">
                     <div class="mbr-figure" style="width: 60%;">
-                      <img src="assets/images/picture8.png" alt="Mobirise">  
+                      <img src="assets/images/Picture8.png" alt="Mobirise">  
                     </div>
                     <div class="media-content">
                         <div class="mbr-section-text">
@@ -73,7 +73,7 @@
             </div>
 
             <div class="mbr-figure pl-lg-5" style="width: 100%;">
-              <img src="assets/images/picture5.png" class="img-fluid">
+              <img src="assets/images/Picture5.png" class="img-fluid">
             </div>
         </div>
     </div>

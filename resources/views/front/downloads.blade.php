@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
+<section class="engine"><a href="{{url('/')}}">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
     
 
@@ -48,7 +48,7 @@
                                 <tr>
                                   <td>{{$file->name}}</td>
                                   <td>{{$file->file}}</td>
-                                  <td><a href="{{url('downloads', $file['id'])}}" class="btn btn-primary">Download</a>
+                                  <td><a href="{{url('files/'. $file->file)}}" class="btn btn-primary">Download</a>
                                   </td>
                                 </tr>
                                 @empty

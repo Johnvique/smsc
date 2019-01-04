@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="engine">
-    <a href="https://mobirise.info/j">School Website</a>
+    <a href="{{url('/')}}">School Website</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
@@ -45,11 +45,6 @@
                     <p class="mbr-text mbr-fonts-style display-7">
                 St. Mary's Secretarial College Started in 1974 to provide Nomadic community girls with office skills.It was later moved to Isiolo in 1976 due to transportation and health problems.The idea of starting the college was mooted by the DPM and implemented by the Late Bishop Luigi Locati, then the Father in charge of Isiolo Catholic Mission.
             </p>
-                    <div class="mbr-section-btn text-center">
-                        <a href="#" class="btn btn-success display-4">
-                        More
-                        </a>
-                    </div>
                 </div>
             </div>
 
@@ -64,11 +59,6 @@
                     <p class="mbr-text mbr-fonts-style display-7">
                         We started Diploma in Secretarial studies to enhance the skills that is Typewrittting (Computerized Document Processing),Shorthand,Business,English,Office Practice,Commerce,Secretarial Duties, Office Management, Entrepreneurship,Economics,Principles of  Management and Accounts.
                     </p>
-                    <div class="mbr-section-btn text-center">
-                        <a href="#" class="btn btn-success display-4">
-                            More
-                        </a>
-                    </div>
                 </div>
             </div>
 
@@ -83,11 +73,6 @@
                     <p class="mbr-text mbr-fonts-style display-7">
                 In offering this course,we aim at empowering the girls (women) to take up their rightful place in the society,since in most African societies women are disadvantaged.The knowledge has made them appreciate that they have equal rights with men.They have noticed that those girls who are able to get some education also get employment are different from those not educated.
             </p>
-                    <div class="mbr-section-btn text-center">
-                        <a href="#" class="btn btn-success display-4">
-                            More
-                        </a>
-                    </div>
                 </div>
             </div>
 

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="https://mobirise.info/j">School Website</a>
+<section class="engine"><a href="{{url('/')}}">School Website</a>
 </section>
 <section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
@@ -65,7 +65,7 @@
                     <div data-form-alert="" hidden="">
                         Thanks for filling out the form!
                     </div>
-                    <form class="block mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="SGp3qprqvnXrjz3YPe4w+Eea5ZWti64gMY3rDDM4BrExOdfKBRE05zmj9PJMVep8Mm3RA7Skbdrf2fhQaEKjDl909prkneyBV4YT3XpgpMvzsOcV54O7QFJ+16ys3hMa">
+                    <form class="block mbr-form" action="{{url('/')}}" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="SGp3qprqvnXrjz3YPe4w+Eea5ZWti64gMY3rDDM4BrExOdfKBRE05zmj9PJMVep8Mm3RA7Skbdrf2fhQaEKjDl909prkneyBV4YT3XpgpMvzsOcV54O7QFJ+16ys3hMa">
                         <div class="row">
                             <div class="col-md-6 multi-horizontal" data-for="name">
                                 <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Your Name" required="" id="name-form4-d">

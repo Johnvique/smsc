@@ -12,10 +12,22 @@ use Storage;
 class PagesController extends Controller
 {
     public function index(){
-    	return view('front.index');
+        return view('front.index');
+    }
+    public function uikit(){
+        return view('front.index1');
+    }
+    public function material(){
+        return view('front.index2');
+    }
+    public function front(){
+    	return view('index');
     }
     public function about(){
-    	return view('front.about');
+        return view('front.about');
+    }
+    public function about1(){
+    	return view('front.about1');
     }
     public function courses(){
     	return view('front.courses');

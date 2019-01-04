@@ -20,7 +20,11 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'PagesController@index')->name('index');
+Route::get('/index', 'PagesController@front')->name('front');
+Route::get('/index1', 'PagesController@uikit')->name('uikit');
+Route::get('/index2', 'PagesController@material')->name('material');
 Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/about1', 'PagesController@about1')->name('about1');
 Route::get('/courses', 'PagesController@courses')->name('courses');
 Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::get('/diploma-in-secretarial-studies', 'PagesController@dss')->name('dss');

@@ -33,19 +33,19 @@
                 </tr>
               </thead>
               <tbody>
-              @forelse($staff as $staff)
+              @forelse($staffs as $staff)
                 <tr>
                   <td>{{$staff->name}}</td>
                   <td>{{$staff->position}}</td>
                   <td>{{$staff->idno}}</td>
                   <td>
-                    <img src="/storage/staff/{{$staff->image}}" style="width: 60px; height: 70px">
+                    <img src="{{asset('/staff/'.$staff->image)}}" style="width: 60px; height: 70px">
                   </td>
                   <td>{{$staff->email}}</td>
                   <td>{{$staff->password}}</td>
-                  <td><a href="{{route('staff.edit', $staff['id'])}}" class="btn btn-warning">Edit</a>
+                  <td><a href="{{route('staffs.edit', $staff['id'])}}" class="btn btn-warning">Edit</a>
                     <span>
-                  <form action="{{route('staff.destroy', $staff['id'])}}" method="post">
+                  <form action="{{route('staffs.destroy', $staff['id'])}}" method="post">
                     @csrf
                     <input name="_method" type="hidden" value="DELETE">
                     <button class="btn btn-danger" type="submit">Delete</button>
@@ -62,7 +62,7 @@
             <div class="container">
               <div class="row justify-content-md-center">
                 <div class="col-lg-2">
-                  {{ $staff->links() }}
+                  {{ $staffs->links() }}
                 </div>
               </div>
             </div>

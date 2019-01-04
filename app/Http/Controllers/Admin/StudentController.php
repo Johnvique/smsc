@@ -124,7 +124,7 @@ class StudentController extends Controller
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('image')->getClientOriginalExtension();
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
-            $path = $request->file('image')->storeAs('public/students', $fileNameToStore);
+            $path = $request->file('image')->move(public_path('students'), $fileNameToStore);
         }
 
         $student = Student::find($id);

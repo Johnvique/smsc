@@ -39,7 +39,7 @@
                 <div class="navbar-brand">
                     <span class="navbar-logo">
                         
-                            <a href="index.html"><img src="{{asset ('assets/images/logoz.png')}}" alt="" title="" style="height: 4.8rem;"></a>
+                            <a href="{{ url('/')}}"><img src="{{asset ('assets/images/logoz.png')}}" alt="" title="" style="height: 4.8rem;"></a>
                         
                     </span>
                     
@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item">
-                        <a class="nav-link link text-black display-4" href="{{ route('index')}}">
+                        <a class="nav-link link text-black display-4" href="{{ url('/')}}">
                             Home</a>
                     </li>
                     <li class="nav-item">
@@ -100,7 +100,7 @@
         <div class="media-container-row content mbr-white">
             <div class="col-md-3 col-sm-4">
                 <div class="mb-3 img-logo">
-                    <a href="{{ route('index')}}">
+                    <a href="{{ url('/')}}">
                         <img src="{{asset ('assets/images/logoz.png')}}" alt="Mobirise">
                     </a>
                 </div>
@@ -139,7 +139,7 @@
                         Thanks for filling out the form!
                     </div>
 
-                    <form class="form-inline" action="{{ route('index')}}" method="post" data-form-title="Mobirise Form">
+                    <form class="form-inline" action="{{ url('/')}}" method="post" data-form-title="Mobirise Form">
                         <input type="hidden" value="EUd9Lw1cNaShFQ1biSwfWiCXqxElR4hdEmfOG/Dk+0/vJqnW6jfUBD7YUFyMwzCZ9BRCkX3xDeBBRhuAsytnMh1WTjtgtapuk0VIHxFDjU3HKv2kxYDiCp3iuq/cUZRK" data-form-email="true">
                         <div class="form-group">
                             <input type="email" class="form-control input-sm input-inverse my-2" name="email" required="" data-form-field="Email" placeholder="Email" id="email-footer4-j">

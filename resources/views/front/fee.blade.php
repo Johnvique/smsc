@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="engine"><a href="">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
+<section class="engine"><a href="{{url('/')}}">School Website</a></section><section class="mbr-section content5 cid-rcch5LToVN mbr-parallax-background" id="content5-n">
 
     
 

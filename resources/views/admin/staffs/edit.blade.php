@@ -20,7 +20,7 @@
     Edit Staff
   </div>
   <div class="card-body">
-	<form method="POST" action="{{route('staff.update', ['staff' => $staff->id])}}" enctype="multipart/form-data">
+	<form method="POST" action="{{route('staffs.update', ['staff' => $staff->id])}}" enctype="multipart/form-data">
 		@csrf
 		@method('PUT')
 	  <div class="form-group">

@@ -17,10 +17,10 @@ class CreateStudentsTable extends Migration
             $table->increments('id');
             $table->string('full_name');
             $table->string('dob');
-            $table->integer('course_id');
+            $table->integer('course_id')->unsigned();
             $table->string('image');
             $table->string('gender');
-            $table->string('email');
+            $table->string('email')->unique();
             $table->integer('idno');
             $table->timestamps();
         });

@@ -38,7 +38,7 @@
                 <tr>
                   <td>{{$student->full_name}}</td>
                   <td>{{$student->dob}}</td>
-                  <td>{{$student->course}}</td>
+                  <td>{{$student->course_id}}</td>
                   <td>
                     <img src="/storage/students/{{$student->image}}" style="width: 60px; height: 70px">
                   </td>
